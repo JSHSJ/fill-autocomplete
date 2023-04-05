@@ -1,7 +1,12 @@
 {
   "name": "fill-autocomplete",
-  "private": true,
+  "private": false,
   "version": "0.0.1",
+    "description": "Autofill native autocomplete inputs with ease",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/JSHSJ/fill-autocomplete.git"
+  },
   "files": [
     "dist"
   ],
@@ -24,5 +29,12 @@
     "rome": "12.0.0",
     "typescript": "^5.0.3",
     "vite": "^4.2.0"
-  }
+  },
+    "keywords": [
+    "JS",
+    "Autocomplete",
+    "Autofill"
+  ],
+  "author": "JSHSJ",
+  "license": "ISC"
 }
