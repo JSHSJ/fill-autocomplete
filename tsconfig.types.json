@@ -3,6 +3,7 @@
     "include": ["src/main.ts"],
     "compilerOptions": {
       "outFile": "./dist/fill-autocomplete.d.ts",
+      "isolatedModules": false,
       "emitDeclarationOnly": true,
       "noEmit": false,
       "declaration": true,
