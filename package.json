@@ -1,0 +1,28 @@
+{
+  "name": "fill-autocomplete",
+  "private": true,
+  "version": "0.0.1",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/fill-autocomplete.umd.cjs",
+  "module": "./dist/fill-autocomplete.js",
+  "types": "./dist/fill-autocomplete.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/fill-autocomplete.js",
+      "require": "./dist/fill-autocomplete.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && tsc --project tsconfig.types.json",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "rome": "12.0.0",
+    "typescript": "^5.0.3",
+    "vite": "^4.2.0"
+  }
+}
